@@ -16,7 +16,7 @@ public class PiezasController {
 	PiezasServiceImpl piezasServiceImpl;
 	
 
-	@GetMapping("/piezas")
+	@GetMapping("/piezas") 
 	public List<Piezas> listarPiezas() 
 	{
 		return piezasServiceImpl.listarPiezas();

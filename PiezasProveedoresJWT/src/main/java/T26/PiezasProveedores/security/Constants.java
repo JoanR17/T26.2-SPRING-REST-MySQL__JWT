@@ -12,6 +12,6 @@ public class Constants {
 
 	public static final String ISSUER_INFO = "Joan Rofes";
 	public static final String SUPER_SECRET_KEY = "1234";
-	public static final long TOKEN_EXPIRATION_TIME = 86_400_000; // 1 day
+	public static final long TOKEN_EXPIRATION_TIME = 864_000_000; // 10 day
 
 }
